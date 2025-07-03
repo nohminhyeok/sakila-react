@@ -18,7 +18,7 @@ export default function Customer() {
                 👤 Customer (현재 페이지: {pageNumber})
             </h1>
 
-            <Link to="/AddCustomer" className="inline-block mb-4 px-4 py-2 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-semibold shadow-md hover:brightness-110 transition-all duration-200">
+            <Link to="/AddCustomer" className="inline-block mb-4 px-4 py-2 rounded-xl bg-gradient-to-r from-sky-400 to-emerald-500 text-white font-semibold shadow-md hover:brightness-110 transition-all duration-200">
                 ➕ Add customer
             </Link>
 

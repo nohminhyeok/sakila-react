@@ -18,7 +18,7 @@ export default function City() {
                 🌆 City List
             </h1>
 
-            <Link to="/AddCity" className="inline-block mb-4 px-4 py-2 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-semibold shadow-md hover:brightness-110 transition-all duration-200">
+            <Link to="/AddCity" className="inline-block mb-4 px-4 py-2 rounded-xl bg-gradient-to-r from-green-400 to-teal-600 text-white font-semibold shadow-md hover:brightness-110 transition-all duration-200">
             ➕ Add city</Link>
 
             <table className="w-full text-sm text-left text-gray-700 border-separate border-spacing-y-2">

@@ -18,7 +18,7 @@ export default function Country() {
                 🌍 Country (현재 페이지: {pageNumber})
             </h1>
 
-            <Link to='/AddCountry' className="inline-block mb-4 px-4 py-2 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-semibold shadow-md hover:brightness-110 transition-all duration-200">
+            <Link to='/AddCountry' className="inline-block mb-4 px-4 py-2 rounded-xl bg-gradient-to-r from-yellow-400 to-pink-500 text-white font-semibold shadow-md hover:brightness-110 transition-all duration-200">
             ➕ add country
             </Link>
 

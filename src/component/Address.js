@@ -18,7 +18,9 @@ export default function Address() {
                 📮 Address List
             </h1>
 
-            <Link to="/AddAddress">Add address</Link>
+            <Link to="/AddAddress" className="inline-block mb-4 px-4 py-2 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-semibold shadow-md hover:brightness-110 transition-all duration-200">
+            ➕ Add Address
+            </Link>
 
             <table className="w-full text-sm text-left text-gray-700 border-separate border-spacing-y-2 mb-6">
                 <thead className="bg-indigo-100">

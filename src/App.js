@@ -3,15 +3,19 @@ import Home from './component/Home';
 import Country from './component/Country';
 import CountryOne from './component/CountryOne'
 import AddCountry from './component/AddCountry';
+import EditCountry from './component/EditCountry';
 import City from './component/City';
 import CityOne from './component/CityOne';
 import Addcity from './component/AddCity'
+import EditCity from './component/EditCity';
 import Address from './component/Address';
 import AddressOne from './component/AddressOne'
 import AddAddress from './component/AddAddress'
+import EditAddress from './component/EditAddress';
 import Customer from './component/Customer';
 import CustomerOne from './component/CustomerOne'
 import AddCustomer from './component/AddCustomer'
+import EditCustomer from './component/EditCustomer';
 
 export default function App() {
 
@@ -42,21 +46,25 @@ export default function App() {
                     <Route path='/Country' element={<Country />}/>
                     <Route path='/country/:countryId' element={<CountryOne />}/>
                     <Route path='/AddCountry' element={<AddCountry />} />
+                    <Route path='/EditCountry/:countryId' element={<EditCountry/>} />
 
                     {/* city crud */}
                     <Route path="/city/:cityId" element={<CityOne />} />
                     <Route path='/City' element={<City />}/>
                     <Route path='/AddCity' element={<Addcity />} />
+                    <Route path='/EditCity/:cityId' element={<EditCity/>} />
 
                     {/* address crud */}
                     <Route path='/Address' element={<Address />}/>
                     <Route path='/address/:addressId' element={<AddressOne />}/>
                     <Route path='/AddAddress' element={<AddAddress />} />
+                    <Route path='/EditAddress/:addressId' element={<EditAddress/>} />
 
                     {/* customer crud */}
                     <Route path='/Customer' element={<Customer />}/>
                     <Route path='/customer/:customerId' element={<CustomerOne />}/>
                     <Route path='/AddCustomer' element={<AddCustomer/>} />
+                    <Route path='/EditCustomer/:customerId' element={<EditCustomer/>} />
                 </Routes>
 
 
